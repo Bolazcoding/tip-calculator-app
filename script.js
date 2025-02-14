@@ -1,7 +1,7 @@
 "use strict";
 
-let billInput = document.querySelector(".bill-input");
-const billNumber = document.querySelector(".bill-number");
+const billInput = document.querySelector("#bill-input");
+const billNumber = document.querySelector("#bill-number");
 const tipBtn = document.querySelectorAll(".tip-btn");
 
 const btnCustom = document.querySelector(".btn-custom");
@@ -47,10 +47,8 @@ for (let i = 0; i < tipBtn.length; i++) {
 
   tipBtn[i].addEventListener("click", function () {
     // console.log(this.value);
-    // percentage = Number(this.value);
     percentage = Number(this.value);
     tipBtn[i].classList.toggle("btn-active");
-    // tipBtn[i].classList.add("btn-15");
 
     calculateTip();
   });
