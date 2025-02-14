@@ -35,7 +35,17 @@ btnCustom.addEventListener("input", function () {
 });
 
 for (let i = 0; i < tipBtn.length; i++) {
-  tipBtn[i].onclick = function myFunction() {
+  // tipBtn[i].onclick = function myFunction() {
+  //   // console.log(this.value);
+  //   // percentage = Number(this.value);
+  //   percentage = Number(this.value);
+  //   tipBtn[i].classList.toggle("btn-active");
+  //   // tipBtn[i].classList.add("btn-15");
+
+  //   calculateTip();
+  // };
+
+  tipBtn[i].addEventListener("click", function () {
     // console.log(this.value);
     // percentage = Number(this.value);
     percentage = Number(this.value);
@@ -43,7 +53,7 @@ for (let i = 0; i < tipBtn.length; i++) {
     // tipBtn[i].classList.add("btn-15");
 
     calculateTip();
-  };
+  });
 }
 
 function calculateTip(
