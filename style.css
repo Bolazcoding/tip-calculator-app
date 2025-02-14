@@ -55,10 +55,6 @@ body {
   border-radius: 0.5rem;
 }
 
-/* .bill-input:hover {
-  border: 2px solid var(--Strong-cyan);
-} */
-
 .bill-text {
   font-size: 1.4rem;
   color: var(--Dark-grayish-cyan);
@@ -124,11 +120,6 @@ body {
   border-radius: 0.5rem;
   cursor: pointer;
 }
-
-/* .tip-btn:hover {
-  background-color: var(--Strong-cyan);
-  color: var(--Very-dark-cyan);
-} */
 
 .btn-15 {
   background-color: var(--Strong-cyan);
