@@ -34,7 +34,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: var(--Dark-grayish-cyan);
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 6px;
   margin-bottom: 5rem;
@@ -125,16 +125,6 @@ body {
   background-color: var(--Strong-cyan);
   color: var(--Very-dark-cyan);
 }
-
-/* .btn-15:hover {
-  background-color: var(--Very-dark-cyan);
-  color: var(--White);
-} */
-
-/* .btn-active {
-  background-color: var(--Strong-cyan);
-  color: var(--Very-dark-cyan);
-} */
 
 .btn-active:hover {
   background-color: var(--Strong-cyan);
@@ -232,14 +222,18 @@ body {
 /* 750.08px */
 @media (max-width: 46.88rem) {
   html {
-    font-size: 50%;
+    font-size: 54%;
+  }
+
+  .tip-btn {
+    font-size: 2.2rem;
   }
 }
 
 /* 660px */
 @media (max-width: 41.25rem) {
   html {
-    font-size: 58%;
+    font-size: 60%;
   }
 
   .container {
@@ -247,15 +241,15 @@ body {
   }
 
   .head-text {
-    margin-top: 8rem;
-    margin-bottom: 3rem;
+    margin-top: 28rem;
+    /* margin-bottom: 3rem; */
   }
 }
 
 /* 430px */
 @media (max-width: 26.88rem) {
   html {
-    font-size: 55%;
+    font-size: 60%;
   }
 
   .tip-grid {
@@ -269,6 +263,9 @@ body {
 
 /* 345px */
 @media (max-width: 21.56rem) {
+  html {
+    font-size: 58%;
+  }
   .tip-text {
     font-size: 1rem;
   }
