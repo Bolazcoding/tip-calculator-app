@@ -81,15 +81,15 @@ reset.addEventListener("click", function () {
   billInput.placeholder = "0";
 
   billNumber.value = null;
-  billNumber.placeholder = "0";
+  billNumber.placehoslder = "0";
 
   btnCustom.value = null;
   btnCustom.placeholder = "Custom";
 
   tipAmount = totalAmount = amountPerPerson = " ";
 
-  amountPerson.textContent = "0.00";
-  tipTotal.textContent = "0.00";
+  amountPerson.textContent = "$0.00";
+  tipTotal.textContent = "$0.00";
 
   numZero.classList.add("numZ");
 });
