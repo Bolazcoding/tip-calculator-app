@@ -126,7 +126,7 @@ body {
   color: var(--Very-dark-cyan);
 }
 
-.btn-active:hover {
+.btn-active {
   background-color: var(--Strong-cyan);
   color: var(--Very-dark-cyan);
 }
