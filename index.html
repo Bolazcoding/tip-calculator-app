@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="./script.js"></script>
+
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="head-text">
+        spli <br />
+        tter
+      </h1>
+      <div class="container">
+        <div class="bill-container">
+          <p class="bill-text">Bill</p>
+          <div class="input_container bill">
+            <input
+              id="bill-input"
+              type="number"
+              class="input"
+              placeholder="0"
+              required
+            />
+            <img
+              src="./images/icon-dollar.svg"
+              class="input_img"
+              alt="dollar-icon"
+            />
+          </div>
+
+          <p class="selectTip">Select Tip %</p>
+          <div class="tip-grid">
+            <button class="tip-btn" type="submit" value="5">5%</button>
+            <button class="tip-btn" type="submit" value="10">10%</button>
+            <button class="tip-btn" type="submit" value="15">15%</button>
+            <button class="tip-btn" type="submit" value="25">25%</button>
+            <button class="tip-btn" type="submit" value="50">50%</button>
+
+            <input
+              class="tip-btn btn-custom"
+              type="number"
+              placeholder="Custom"
+            />
+          </div>
+          <div class="numContainer">
+            <p class="numPeople">Number of People</p>
+            <p class="numZero numZ">Can't be zero</p>
+          </div>
+          <div class="input_container">
+            <input
+              type="number"
+              id="bill-number"
+              class="input"
+              value
+              placeholder="0"
+              required
+            />
+            <img src="./images/icon-person.svg" class="input_img" alt="icon" />
+          </div>
+        </div>
+
+        <div class="bill-calculator">
+          <div class="tip-container tip-amount-container">
+            <div class="tip">
+              <p class="tip-text">Tip Amount</p>
+              <p class="person">/ person</p>
+            </div>
+            <h2 class="tip-amount amountPerPerson">$0.00</h2>
+          </div>
+
+          <div class="tip-container tip-total-container">
+            <div class="tip">
+              <p class="tip-text">Total</p>
+              <p class="person">/ person</p>
+            </div>
+            <h2 class="tip-amount tip-total">$0.00</h2>
+          </div>
+
+          <button class="reset" type="reset">Reset</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
