@@ -57,7 +57,7 @@ function calculateTip(
   if (numPeople == 0) {
     numZero.classList.remove('numZ');
     return;
-  } else if (billAmount !== '' && tipPercentage !== '' && numPeople !== '') {
+  } else if (!isNaN(billAmount) && !isNaN(tipPercentage) && !isNaN(numPeople)) {
     tipAmount = (tipPercentage / 100) * billAmount;
     const formattedTipAmount = tipAmount / numPeople;
 
